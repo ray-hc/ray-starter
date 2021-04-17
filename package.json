@@ -1,0 +1,27 @@
+{
+  "name": "starterpack-ray-hc",
+  "version": "1.0.0",
+  "description": "My short assignment!",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dartmouth-cs52-21S/starterpack-ray-hc.git"
+  },
+  "keywords": [
+    "starterpack"
+  ],
+  "author": "Ray Crist",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dartmouth-cs52-21S/starterpack-ray-hc/issues"
+  },
+  "homepage": "https://github.com/dartmouth-cs52-21S/starterpack-ray-hc#readme",
+  "devDependencies": {
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
