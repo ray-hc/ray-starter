@@ -1,12 +1,19 @@
-import $ from 'jquery';
 import './style.scss';
 
-let num = 0;
-console.log('starting up!');
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 
-setInterval(() => {
-  $('#main').html(`You've been on this page for ${num} seconds.`);
-  num += 1;
-},
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {}; // nothing here yet
+  }
 
-1000);
+  render() {
+    return (
+      <div>hi</div>
+    );
+  }
+}
+
+ReactDOM.render(<App />, document.getElementById('main'));
