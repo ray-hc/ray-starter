@@ -6,10 +6,6 @@ body, html {
     color: white;
   }
 
-  .logo {
-    background-image: url('img/ray.png');
-    width: 100px;
-    height: 100px;
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
+.active {
+  color: pink;
+}

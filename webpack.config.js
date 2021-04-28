@@ -9,10 +9,12 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const finalCSSLoader = (env === 'production') ? MiniCssExtractPlugin.loader : { loader: 'style-loader' };
 
 module.exports = {
+  mode: env,
+  output: { publicPath: '/' },
   devServer: {
     hot: true,
+    historyApiFallback: true,
   },
-  mode: env,
   entry: ['./src'], // this is where our app lives
   devtool: 'source-map', // this enables debugging with source in chrome devtools
   module: {
