@@ -1,17 +1,14 @@
-# Title
+# Ray's Starter Pack
 
-*description*
+It's not much to look at, but you can view at: 
 
-[deployed url](http://url-if-deployed-here)
+[deployed url](https://ecstatic-bhabha-327d98.netlify.app)
 
 ## What Worked Well
+Super convenient!
 
 ## What Didn't
+Had some pretty tough merge errors when I used the starterpack in the videos-project. This part was fine. 
 
 ## Extra Credit
-
-## Screenshots
-<<<<<<< HEAD
-=======
-=======
-# From: Ray's Starter Pack
+None this round.
